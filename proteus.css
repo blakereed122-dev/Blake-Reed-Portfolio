@@ -1,0 +1,24 @@
+.proteus-cover {
+  background: #050505;
+}
+
+.proteus-cover img {
+  object-fit: contain;
+  filter: none;
+  padding: 1.25rem;
+}
+
+.project-open:hover .proteus-cover img,
+.project-open:focus-visible .proteus-cover img {
+  filter: none;
+}
+
+@media (max-width: 760px) {
+  .proteus-cover {
+    aspect-ratio: 1.05 / 1;
+  }
+
+  .proteus-cover img {
+    padding: .5rem;
+  }
+}
